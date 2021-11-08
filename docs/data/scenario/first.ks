@@ -1,33 +1,32 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="コロナウイルス"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「コロナウイルス」[l][r]
 
-メロスは激怒した。[l][r]
+世間ではコロナウイルスが流行っている。我々は自粛生活を余儀なくされている。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
 
-(中略)[l][r]
+ある日、友達のA君から渋谷に行こうと誘われた。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →渋谷に行く [endlink][r]
+[link target=*tag_run] →自粛する [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=virus_corona.png time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+せっかくの友達の誘いなので、一緒に行くことにした。[l][r]
+
+数日後、コロナ感染していることが分かった![r]
+
 
 【 BAD END 】[l][cm]
 
@@ -35,12 +34,46 @@
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=pose_genki03_man.png time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+ありがたい友達の誘いだが、世の中の状況を鑑みて自宅で自粛することにした。[l][r]
+コロナに感染することなく、健康でいられた！[r]
 
-【 GOOD END 】[l][cm]
+ただせっかく誘ってくれたのに断るのは悪いので、今度遊びに行く約束をしよう。[l][r]
+A君は野球が好きなので野球をして遊ぼう。[l][r]
+
+
+[link target=*tag_play] →公園で野球をする [endlink][r]
+[link target=*tag_online] →野球のオンラインゲームをする　[endlink][r]
+[s]
+
+*tag_play
+
+[cm]
+
+[be storage=baseball_batter.png time=500]
+
+屋外で２人で野球をするだけなのでコロナには感染しないだろうと思い、次の日にA君と公園で野球をした。[l][r]
+数日後、コロナ感染していることが分かった！[r]
+
+  【BAD END】[l][cm]
+
+　[jump target=*start]
+
+*tag_online
+
+
+[be storage=game_friends_income.png time=500]
+
+[cm]
+２人で楽しくオンラインの野球ゲームをした。最近のゲームは発展していてオンラインなのに実際にプレイしているような感覚になる。[l][r]
+A君と僕はともに健康でいられた！[l][r]
+コロナによって生活が制限されているが、その中でも十分楽しむことができるのだと気づいた！[r]
+
+【GOOD END】　[l][cm]
+
+
+
 
 [jump target=*start]
